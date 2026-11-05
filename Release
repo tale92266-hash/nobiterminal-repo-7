@@ -2,7 +2,16 @@ Origin: NobiTerminal
 Label: NobiTerminal
 Suite: stable
 Codename: stable
-Date: Thu, 05 Nov 2026 10:26:25 GMT
+Date: Thu, 05 Nov 2026 19:39:05 GMT
 Architectures: aarch64 all
 Components: main
-Description: NobiTerminal flat apt repo 7 for the com.nobiterminal prefix
+Description: NobiTerminal custom-built packages for the com.nobiterminal prefix
+MD5Sum:
+ c4132e9877ed247a0f39b42e516282f8            19904 Packages
+ 7cdd51bcf01a14eda3df6eecfaaaa57f             7699 Packages.gz
+SHA1:
+ 437d3eda746c32e3e7eab8f73163393dc3dbc3e9            19904 Packages
+ e02203d33b4cdda4689024bd6fbf3e03b36450b0             7699 Packages.gz
+SHA256:
+ f2c664b1f29be4d686361ba06253f5b9c9c3d9c3e0d59353954886fb5b799927            19904 Packages
+ 1b6e6345ad094cdac50639442860964901fb330a5857127125721b31443a9b87             7699 Packages.gz
