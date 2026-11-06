@@ -162,6 +162,20 @@ MD5sum: 2f437ae07741ebb4f3b4823d0d15533f
 SHA1: 7eb10eab36b40249d88a1161b29a001afe34f70d
 SHA256: c1234db7e8bbdb5f0b31ec719a791b460b6ee3c4231e99a82bb2467926cddab0
 
+Package: jackett
+Architecture: aarch64
+Installed-Size: 16204
+Maintainer: @termux
+Version: 0.24.2994-1
+Homepage: https://github.com/jackett/jackett
+Depends: aspnetcore-runtime-9.0, dotnet-host, dotnet-runtime-9.0
+Description: API Support for your favorite torrent trackers
+Filename: ./jackett_0.24.2994-1_aarch64.deb
+Size: 3556476
+MD5sum: d607ceaf283551f0e1551fcadfd2b089
+SHA1: 17c3876bc6e9fd7c5c7b958701e808a0db26a624
+SHA256: 34aabf33fca915427ead36f57e39f6f445434d24835eae14f4cec3f86c4889d4
+
 Package: jfrog-cli
 Architecture: aarch64
 Installed-Size: 66256
@@ -248,6 +262,21 @@ MD5sum: f85a9c50cacbfb246645e71be76f47f6
 SHA1: 36dfc2a69da3dbf1e33125d204a8ed4b93f68df0
 SHA256: 900dbafad4a4e92c4ac7a5a5c2fbed6b8b2d7d469468c9e92351e0a623bd7da0
 
+Package: maturin
+Architecture: aarch64
+Installed-Size: 18992
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.16.0-1
+Homepage: https://maturin.rs/
+Depends: openssl, python, rust
+Recommends: python-pip
+Description: Build and publish Rust crates (pyo3, cffi, uniffi bindings) as Python packages
+Filename: ./maturin_1.16.0-1_aarch64.deb
+Size: 4958888
+MD5sum: eb42f662d017c0afa97508b7cd4a41f7
+SHA1: bf2d2339445014dade37ae90cd606581fc49b854
+SHA256: 0de0bbdcd12da5f80df5862c1ff758f71a1f649d5af8bb767ec4732ee9ea88a4
+
 Package: miniflux
 Architecture: aarch64
 Installed-Size: 24160
@@ -274,6 +303,20 @@ Size: 41624852
 MD5sum: eb0c3dbd72c38854b0ced0e028ca1232
 SHA1: 6d64e7fa4ebb5ba0e34b4c0ab0970b17d698f9c7
 SHA256: d0d0a06aa81d7c3813fe71f6acb470e49207f514ae72b430d953f7f9e65a0188
+
+Package: mongosh
+Architecture: aarch64
+Installed-Size: 15696
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.14.1-1
+Homepage: https://github.com/mongodb-js/mongosh
+Depends: nodejs | nodejs-lts
+Description: The MongoDB Shell
+Filename: ./mongosh_2.14.1-1_aarch64.deb
+Size: 2926976
+MD5sum: 4eff6d202ad8d42fe608b5dc3c984091
+SHA1: 00494b875ee0efaf45d9530cbd4fca71b3fdc685
+SHA256: 99bc3f569366b0aea1168a67941efe9528f7888948929c58a08eebe36f979f47
 
 Package: monolith
 Architecture: aarch64
@@ -433,6 +476,20 @@ Size: 4027440
 MD5sum: a5030d8cf1b3523e46d78ca57c39818b
 SHA1: af9a829252bfa89db370265b561e54536b1e9d7f
 SHA256: 432085fce184c6cd6de751c713eb6ae9e50762a90ef2355c84255424eb595be3
+
+Package: patchelf
+Architecture: aarch64
+Installed-Size: 336
+Maintainer: @termux
+Version: 0.19.3-1
+Homepage: https://nixos.org/patchelf.html
+Depends: libc++
+Description: Utility to modify the dynamic linker and RPATH of ELF executables
+Filename: ./patchelf_0.19.3-1_aarch64.deb
+Size: 83568
+MD5sum: 3a86c1f36d4a1c625b90f22394a8e12a
+SHA1: a2cca507a62fcba5921f3f28dd701c6393f451ee
+SHA256: c7bd480a0f7829426878616eb204abd6ad99102d3627ce7060be728d2d3154ca
 
 Package: pnpm
 Architecture: aarch64
