@@ -1137,6 +1137,21 @@ MD5sum: 82fb8603d847113bc40720087f22d7f7
 SHA1: e5d079ae90502477309765d88d8cf2dc5b5d5618
 SHA256: 911255215379bf1b2b07f1c0607ae04cec92049970f4358d1617166ab6126eeb
 
+Package: sourcekit-lsp
+Architecture: aarch64
+Installed-Size: 52392
+Maintainer: @finagolfin
+Version: 6.4.2-1
+Homepage: https://swift.org/
+Depends: swift (= 6.4.2-1)
+Breaks: swift (<< 6.3)
+Description: Language Server Protocol implementation for Swift and C-based languages
+Filename: ./sourcekit-lsp_6.4.2-1_aarch64.deb
+Size: 12547864
+MD5sum: 28bd93120eca441192444f4b4f2b1c94
+SHA1: 4e081c80859b8cb8b77d4e42b9bc401078b218cf
+SHA256: 54ff420f8adab646ea850e9779743eadd38ad59e9e4d01a3bd7a623fbd43c244
+
 Package: spirv-llvm-translator
 Architecture: aarch64
 Installed-Size: 17888
@@ -1204,6 +1219,36 @@ Size: 4279972
 MD5sum: 47c2537cd90b85b13d56e4b0c2907abc
 SHA1: 5ff83c587ddfaaa31bf65af2464a263671c59e10
 SHA256: ca636f20701460bf11a0d050ebc74a6c812e3db2eed7a5db45ee4f17e90bc850
+
+Package: swift-runtime-aarch64
+Architecture: all
+Installed-Size: 88332
+Maintainer: @finagolfin
+Version: 6.4.2-1
+Homepage: https://swift.org/
+Depends: ndk-multilib
+Description: Swift runtime libraries for Android AArch64
+Filename: ./swift-runtime-aarch64_6.4.2-1_all.deb
+Size: 18391272
+MD5sum: 662768cf10c240af2cf0466832532937
+SHA1: 50551cce05dbd919966f94333e7d90de0255f2be
+SHA256: 080f8cc815d145594b0282c661b80b652bc6057447903310e3a25886eb39525e
+
+Package: swift-sdk-aarch64
+Architecture: all
+Installed-Size: 220112
+Maintainer: @finagolfin
+Version: 6.4.2-1
+Homepage: https://swift.org/
+Depends: swift-runtime-aarch64
+Breaks: swift (<< 5.8)
+Replaces: swift (<< 5.8)
+Description: Swift SDK for Android AArch64
+Filename: ./swift-sdk-aarch64_6.4.2-1_all.deb
+Size: 37590640
+MD5sum: ea023491a1c93645ed40517f316496be
+SHA1: f40e67c7aa28d203e576ef8d6c584ea397bab6f0
+SHA256: fde2fb743b933c57c992e56c97d6a07de42e21755c5f8143d07f97dce5ae66bd
 
 Package: ta-lib-static
 Architecture: aarch64
